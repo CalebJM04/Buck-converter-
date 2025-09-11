@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "buck")(type "KiCad")(uri "${KIPRJMOD}/Dependencies/LIB_TPS630702RNMR/TPS630702RNMR/KiCad/TPS630702RNMR.kicad_sym")(options "")(descr ""))
+)
