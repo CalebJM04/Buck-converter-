@@ -2273,7 +2273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20229e58-0926-4411-bb45-124b969b8c74")
-		(property "Reference" "gnd_out"
+		(property "Reference" "gnd_out1"
 			(at 270.51 104.1399 90)
 			(effects
 				(font
@@ -2291,7 +2291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 265.43 109.22 0)
 			(effects
 				(font
@@ -2324,7 +2324,7 @@
 		(instances
 			(project "buck"
 				(path "/09b05005-515b-4cb8-8c28-d9a88da80a5e"
-					(reference "gnd_out")
+					(reference "gnd_out1")
 					(unit 1)
 				)
 			)
@@ -2564,7 +2564,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 99.06 91.44 0)
 			(effects
 				(font
@@ -2766,7 +2766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 78.74 73.66 0)
 			(effects
 				(font
@@ -2815,7 +2815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c4e87f8-4ad2-48f4-bad5-a71c44d0ff99")
-		(property "Reference" "pwr_out"
+		(property "Reference" "pwr_out1"
 			(at 270.51 73.6599 90)
 			(effects
 				(font
@@ -2833,7 +2833,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 265.43 80.01 0)
 			(effects
 				(font
@@ -2866,7 +2866,7 @@
 		(instances
 			(project "buck"
 				(path "/09b05005-515b-4cb8-8c28-d9a88da80a5e"
-					(reference "pwr_out")
+					(reference "pwr_out1")
 					(unit 1)
 				)
 			)
@@ -3343,7 +3343,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
 			(at 78.74 99.06 0)
 			(effects
 				(font
