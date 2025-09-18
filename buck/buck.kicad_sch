@@ -1364,12 +1364,6 @@
 		(uuid "58166c1c-548f-4d3a-a222-8658cdcacd29")
 	)
 	(junction
-		(at 91.44 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82ed0da5-aafd-45e0-8205-1348c52d1e1e")
-	)
-	(junction
 		(at 166.37 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1422,6 +1416,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f10768f8-b935-4dbd-9d44-fd85e9209e6a")
+	)
+	(junction
+		(at 91.44 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2dc0884-fc50-4771-9041-80ecb283467a")
 	)
 	(junction
 		(at 163.83 104.14)
@@ -2433,7 +2433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/CM05X5R106M10AH?qs=MyNHzdoqoQKSCgSEDR5Ylg%3D%3D"
 			(at 226.06 86.36 0)
 			(effects
 				(font
@@ -2461,76 +2461,6 @@
 			(project "buck"
 				(path "/09b05005-515b-4cb8-8c28-d9a88da80a5e"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 91.44 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b9c2da2-c079-4bde-bd57-1777a9a7041d")
-		(property "Reference" "C1"
-			(at 95.25 81.2799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 95.25 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 92.4052 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3bf3cf37-1dcc-45a8-a838-e9731e737a64")
-		)
-		(pin "2"
-			(uuid "4ea622e3-a2d2-4e7e-8da7-fed44c8dc90c")
-		)
-		(instances
-			(project ""
-				(path "/09b05005-515b-4cb8-8c28-d9a88da80a5e"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -2640,7 +2570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM155R71C104JA88J?qs=hNud%2FORuBR1FShEh%252B0yzMw%3D%3D"
 			(at 115.57 93.98 0)
 			(effects
 				(font
@@ -2909,7 +2839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Walsin/MR04X1003FTL?qs=GedFDFLaBXHL0NzjarksFQ%3D%3D"
 			(at 181.61 88.9 0)
 			(effects
 				(font
@@ -2937,6 +2867,76 @@
 			(project "buck"
 				(path "/09b05005-515b-4cb8-8c28-d9a88da80a5e"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 91.44 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c9a21db-17a5-4986-9820-132b8f0fee3d")
+		(property "Reference" "C1"
+			(at 95.25 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 95.25 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 92.4052 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM21AR51A476MU?qs=Jm2GQyTW%2Fbh2M%2FAPQlqugw%3D%3D"
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 91.44 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dad45991-8104-4c76-b83b-3b43b25a27a2")
+		)
+		(pin "2"
+			(uuid "6c275531-54d0-49c4-9235-50f09c83408d")
+		)
+		(instances
+			(project "buck"
+				(path "/09b05005-515b-4cb8-8c28-d9a88da80a5e"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3049,7 +3049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Vishay/CRCW0402309KDHEDP?qs=v%2FGZjxuOhOZzvVxLh1dz%2Fg%3D%3D"
 			(at 181.61 78.74 0)
 			(effects
 				(font
@@ -3110,7 +3110,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 249.8852 90.17 0)
 			(effects
 				(font
@@ -3119,7 +3119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGM21AR51A476MU?qs=Jm2GQyTW%2Fbh2M%2FAPQlqugw%3D%3D"
 			(at 248.92 86.36 0)
 			(effects
 				(font
@@ -3419,7 +3419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Walsin/MR04X1003FTL?qs=GedFDFLaBXHL0NzjarksFQ%3D%3D"
 			(at 207.01 87.63 0)
 			(effects
 				(font
